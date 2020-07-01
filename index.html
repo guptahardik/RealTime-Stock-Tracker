@@ -1,0 +1,31 @@
+<!--Hardik Gupta
+    Applied for EdPlus Student Developer Position-->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Real-time Stock Price Chart</title>
+    <!--
+    This imports support.js which is supporting javascript.
+    Also imports google charts loader js.
+    -->
+    <script src="support.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+
+  <body>
+    <h3>
+      Real-time Stock Price Chart
+    </h3>
+    <h5>By Hardik Gupta</h5><br><br>
+    <input type="text" id="companyName" placeholder="Stock Symbol">
+    <button onclick="addCompany()">Add</button><br>
+    <ul id="companyList"></ul><br>
+
+    <div id="top_x_div" style="width: 1000px; height: 600px;"></div>
+
+  </body>
+
+</html>
+
